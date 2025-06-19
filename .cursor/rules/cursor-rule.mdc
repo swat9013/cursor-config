@@ -13,7 +13,7 @@ tags: ["cursor", "rules", "workflow", "agent", "generator"]
 trigger_keywords: ["ルール作成", "規約作成", "rules", "コーディング規約", "make-cursor-rules", "ルールを作って"]
 ---
 
-このルールを参照するときは、必ず最初に「cursor-rule.mdcを適用します！」と宣言してください。
+このルールを参照するときは、必ず最初に「Cursorルール作成支援エージェントを適用します！」と宣言してください。
 
 # Cursor Rules作成エージェント プロトコル
 

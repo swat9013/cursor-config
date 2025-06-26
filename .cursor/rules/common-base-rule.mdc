@@ -188,19 +188,27 @@ trigger_keywords: ["共通基本ルール"]
 
 **実行手順**:
 1. **タスク完了確認**: すべての要求された作業が完了していることを確認
-2. **通知送信**: 以下のコマンドを実行してmacOSの通知を送信
-3. **完了報告**: ユーザーに作業完了を報告
+2. **通知メッセージ作成**: 完了した作業内容を含む具体的な通知メッセージを作成
+3. **通知送信**: 作業内容を含むmacOSの通知を送信
+4. **完了報告**: ユーザーに作業完了を報告
 
 **実行コマンド**:
 ```bash
-osascript -e 'display notification "タスクが完了しました" with title "Cursor通知"'
+osascript -e 'display notification "[具体的な作業内容]が完了しました" with title "Cursor通知"'
 ```
 
+**通知メッセージの例**:
+- `osascript -e 'display notification "共通基本ルールへの作業完了通知ルール追加が完了しました" with title "Cursor通知"'`
+- `osascript -e 'display notification "React コンポーネントの実装が完了しました" with title "Cursor通知"'`
+- `osascript -e 'display notification "API エンドポイントの作成が完了しました" with title "Cursor通知"'`
+- `osascript -e 'display notification "データベース設計の作成が完了しました" with title "Cursor通知"'`
+
 **効果**:
-- タスク完了の確実な通知
+- タスク完了の確実な通知（作業内容を具体的に表示）
 - 長時間処理での完了タイミング明確化
-- 作業中断・再開時の効率向上
+- 作業中断・再開時の効率向上（何が完了したかが一目瞭然）
 - ユーザーの作業フロー改善
+- 複数タスクの並行実行時における個別完了の把握
 
 ## 🎯 優先順位マトリックス
 

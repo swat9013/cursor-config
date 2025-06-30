@@ -7,9 +7,9 @@ alwaysApply: true
 name: "共通基本ルール"
 type: "always"
 description: "プロジェクトの種類・技術スタック・チーム構成に関わらず、どんな開発プロジェクトでも適用できる普遍的な品質基準とプロセスを定義"
-version: "2.1.2"
+version: "2.2.0"
 author: "AI Assistant"
-tags: ["base", "fundamental", "process", "quality", "workflow", "parallel-processing", "document-quality", "task-management", "information-search", "universal", "cross-project"]
+tags: ["base", "fundamental", "process", "quality", "workflow", "parallel-processing", "document-quality", "task-management", "information-search", "universal", "cross-project", "constitutional-ai", "xml-structured"]
 trigger_keywords: ["共通基本ルール"]
 ---
 

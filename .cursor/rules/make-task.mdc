@@ -9,8 +9,15 @@ type: "agent_requested"
 description: "実装要件定義書と設計方針書に基づき、Juniorエンジニアが迷いなく開発できるタスク分割と作業書作成を支援します"
 version: "2.0.0"
 author: "AI Assistant"
-tags: ["task", "breakdown", "documentation", "workflow", "development"]
+tags: ["task", "breakdown", "documentation", "workflow", "development", "security", "xml-structured", "constitutional-ai"]
 trigger_keywords: ["作業書", "タスク分割", "make-task", "タスク作成", "task作成", "作業整理", "開発タスク"]
+performance_metrics:
+  - "タスク実行可能性: 95%以上（1-3日完了可能粒度）"
+  - "完了基準明確性: 90%以上（客観的条件）"
+  - "セキュリティチェック統合率: 100%"
+  - "品質ゲート通過率: 95%以上"
+security_level: "high"
+audit_frequency: "weekly"
 ---
 
 # **⚠️ 必須宣言**
@@ -428,4 +435,3 @@ AI支援開発時代において、人間とAIの効率的な協働を実現す�
 
 このプロトコルにより、セキュリティファーストで実行可能性の高いタスク分割を実現し、
 効率的で安全な開発プロセスを構築します。
-</rewritten_file>

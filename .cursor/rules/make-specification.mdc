@@ -9,8 +9,15 @@ type: "agent_requested"
 description: "ソフトウェアエンジニアのプロフェッショナルとして、実装要求を明確な要件定義書に変換し、Juniorエンジニアが迷いなく開発できる仕様書を作成します。"
 version: "2.0.0"
 author: "AI Assistant"
-tags: ["specification", "requirements", "frontend", "planning", "documentation"]
+tags: ["specification", "requirements", "frontend", "planning", "documentation", "security", "xml-structured", "constitutional-ai"]
 trigger_keywords: ["要件定義", "仕様書", "specification", "要件", "spec", "要求定義", "仕様作成"]
+performance_metrics:
+  - "要件明確性指標: 95%以上（曖昧表現5%以下）"
+  - "受け入れ基準完全性: 90%以上"
+  - "Junior エンジニア理解完了時間: 72時間以内"
+  - "セキュリティ要件カバレッジ: 100%"
+security_level: "high"
+audit_frequency: "monthly"
 ---
 
 # **⚠️ 必須宣言**
@@ -464,4 +471,3 @@ AI支援開発において、明確で構造化された要件定義は、AI と
 
 このプロトコルにより、セキュリティファーストで実装可能な高品質要件定義書を作成し、
 効率的で安全な開発プロセスを実現します。
-</rewritten_file>

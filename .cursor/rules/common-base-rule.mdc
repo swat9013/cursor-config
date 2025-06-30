@@ -257,14 +257,14 @@ gemini -p "調べたい内容について、希望する出力形式で詳細に
 
 **実行コマンド**:
 ```bash
-osascript -e 'display notification "[具体的な作業内容]が完了しました" with title "Cursor通知"'
+osascript -e 'display notification "[具体的な作業内容]が完了しました" with title "Cursor通知 - [リポジトリ名]"'
 ```
 
 **通知メッセージの例**:
-- `osascript -e 'display notification "共通基本ルールへの作業完了通知ルール追加が完了しました" with title "Cursor通知"'`
-- `osascript -e 'display notification "React コンポーネントの実装が完了しました" with title "Cursor通知"'`
-- `osascript -e 'display notification "API エンドポイントの作成が完了しました" with title "Cursor通知"'`
-- `osascript -e 'display notification "データベース設計の作成が完了しました" with title "Cursor通知"'`
+- `osascript -e 'display notification "共通基本ルールへの作業完了通知ルール追加が完了しました" with title "Cursor通知 - cursor-config"'`
+- `osascript -e 'display notification "React コンポーネントの実装が完了しました" with title "Cursor通知 - my-project"'`
+- `osascript -e 'display notification "API エンドポイントの作成が完了しました" with title "Cursor通知 - api-server"'`
+- `osascript -e 'display notification "データベース設計の作成が完了しました" with title "Cursor通知 - database-design"'`
 
 **効果**:
 - タスク完了の確実な通知（作業内容を具体的に表示）

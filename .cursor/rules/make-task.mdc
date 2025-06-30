@@ -1,5 +1,5 @@
 ---
-description: "作業書", "タスク分割", "make-task", "タスク作成", "task作成", "作業整理", "開発タスク"
+description: 実装要件定義書と設計方針書に基づき、Juniorエンジニアが迷いなく開発できるタスク分割と作業書作成を支援します
 globs:
 alwaysApply: false
 ---

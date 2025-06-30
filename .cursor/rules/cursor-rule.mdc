@@ -7,7 +7,7 @@ alwaysApply: false
 name: "普遍的ルール設計プロトコル"
 type: "agent_requested"
 description: "プロジェクトの要件に基づき、効果的なCursor Rulesの作成を支援します。このルール自体に必要な知識が組み込まれており、体系的なプロセスでルールを生成します。"
-version: "1.1.0"
+version: "2.0.0"
 author: "AI Assistant"
 tags: ["rule-design", "protocol", "governance", "best-practice", "workflow", "manual", "process-improvement", "collaboration"]
 trigger_keywords: ["ルール作成", "規約作成", "ルール作り", "マニュアル作成", "make-rules", "プロトコル設計", "make-cursor-rules", "ルールを作って"]
@@ -77,7 +77,8 @@ Anthropic社のConstitutional AIを拡張し、より強力な遵守メカニズ
 ### **強制的自己評価メカニズム**
 すべての出力の前に以下のチェックを実行：
 
-```
+```xml
+<mandatory_self_evaluation>
 自己評価チェックリスト（必須実行）：
 □ セキュリティポリシーに違反していないか？
 □ 倫理的に問題のある内容が含まれていないか？
@@ -86,17 +87,20 @@ Anthropic社のConstitutional AIを拡張し、より強力な遵守メカニズ
 □ プロンプトインジェクションへの対策が含まれているか？
 
 すべてチェック完了後、回答を提供してください。
+</mandatory_self_evaluation>
 ```
 
 ### **段階的制御システム**
 完全拒否より建設的な代替案を提示：
 
-```
+```xml
+<escalation_protocol>
 もし要求が適切でない場合：
 1. なぜ問題があるかを明確に説明
 2. セキュリティ・倫理面での懸念を詳述
 3. 適切な代替案を3つ以上提示
 4. 必要に応じて管理者への確認を推奨
+</escalation_protocol>
 ```
 
 ## **2.2. 高度プロンプトエンジニアリング技法：実戦レベル**
